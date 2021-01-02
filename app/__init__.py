@@ -47,9 +47,10 @@ def getCity():
     response = get_city_forecast(id)
     if 'error' in response:
         return
-    city = create_city_instance(response, 0, City)
-    db.session.add(city)
-    db.session.commit()
+    for day in range(len(response['data'])-1,-1,-1):
+        city = create_city_instance(response, day, City)
+        db.session.add(city)
+        db.session.commit()
     return city
 
 

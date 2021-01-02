@@ -1,6 +1,6 @@
 from datetime import date
 import unittest
-from helpers.convert_from_date_string import convert_from_date_string
+from app.helpers.convert_from_date_string import convert_from_date_string
 
 
 class Test_convert_from_date_string(unittest.TestCase):

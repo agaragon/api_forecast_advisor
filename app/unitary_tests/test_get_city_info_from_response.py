@@ -1,7 +1,7 @@
 import unittest
 from json import load
 from datetime import date
-from helpers.get_city_info_from_response import get_city_info_from_response
+from app.helpers.get_city_info_from_response import get_city_info_from_response
 from os.path import join
 from sys import path
 
@@ -45,7 +45,7 @@ answers[3] = {
 
 
 def populate_dictonary_for_testing(file_name):
-    file_path = join(path[0], 'unitary_tests', 'api_responses', file_name)
+    file_path = join(path[0],'app', 'unitary_tests', 'api_responses', file_name)
     f = open(file_path)
     dictionary[len(dictionary)+1] = load(f)
 
