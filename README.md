@@ -31,9 +31,13 @@ com o parâmetro id na url, seguindo o seguinte padrão:
 
 http://localhost:5000/city?id=<ID_DA_CIDADE>
 
-Ex:  http://localhost:5000/city?id=3477
+Exemplo:
 
-Busca as condições climáticas para a cidade de são paulo e armazena a previsão no banco de dados.
+Ao acessar:
+
+http://localhost:5000/city?id=3477
+
+São buscadas condições climáticas para a cidade de São Paulo e armazenadas no banco de dados.
 
 A requisição à api apenas é executada caso não seja encontrado no banco de dados os dados climáticos
 para o id requisitado na mesma data da requisição (data e id formam a chave primária no banco de dados).
@@ -74,30 +78,29 @@ No diretório forecast_advisor_app, execute o seguinte comando:
 - 1 - A rotina get_city_info_from_response é responsável por retirar somente as informações relevantes da resposta da api.
  esse teste verifica se as informações retiradas estão corretas.
 
-python -m unittest app/unitary_tests/test_get_city_info_from_response.py
+   python -m unittest app/unitary_tests/test_get_city_info_from_response.py
 
 - 2 - A rotina convert_from_date_string é responsável por convertar um string no formato aaaa-mm-dd (yyyy-mm-dd) em um
 objeto do tipo date. Esse teste verifica se o resultado obtido com a conversão é o esperado.
 
-python -m unittest app/unitary_tests/convert_from_date_string.py
+   python -m unittest app/unitary_tests/convert_from_date_string.py
 
 # Para realizar os testes abaixo, a api deve estar rodando na porta 5000.
 
 - 3 - As respostas da api a uma requisição devem poder ser convertidas para o formato json. A rotina test_city,
 verifica se, para uma cidade aleatória, a requisição pode ser convertida para o formato json.
 
-python -m unittest app/api_tests/test_city.py
+   python -m unittest app/api_tests/test_city.py
 
 - 4 - Verifica se a api vai devolver uma resposta serializável caso parâmetros de busca não sejam passados
 para a rota analysis.
 
-python -m unittest app/api_tests/test_no_analysis_param.py
+   python -m unittest app/api_tests/test_no_analysis_param.py
 
 - 5 - Verifica se a api vai devolver uma resposta serializável caso o id seja um inteiro, porém a api não
 tenha registros para a id passada.
 
-python -m unittest app/api_tests/test_no_id_city.py
-
+   python -m unittest app/api_tests/test_no_id_city.py
 
 
 Obs: a api do apiadvisor estava respondendo devolvendo apenas a previsão do tempo durante os próximos 7 dias,
