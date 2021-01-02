@@ -6,7 +6,7 @@
 
 - No diretório forecast_advisor_app rodar o seguinte comando:
 
-$sudo bash start.sh
+   $sudo bash start.sh
 
 - A api ficará disponível para consumo através da porta 5000.
 
@@ -18,7 +18,9 @@ $sudo bash start.sh
 
 - No diretório forecast_advisor_app rodar o comando:
 
-$python main.py
+   $python main.py
+   
+- A api ficará disponível para consumo através da porta 5000.
 
 # Consumo da api:
 
