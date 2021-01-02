@@ -1,8 +1,6 @@
 # api_forecast_advisor
 
-# Para rodar a aplicação:
-
-# Usando docker:
+# Para rodar a aplicação usando docker:
 
 - No diretório forecast_advisor_app rodar o seguinte comando:
 
@@ -12,7 +10,7 @@
 
 - Esse arquivo contém as rotinas para criar o container da aplicação e iniciar a mesma nesse container.
 
-# Sem usar docker:
+# Para rodar a aplicação sem usar docker:
 
 - Instale as dependências encontradas em requirements.txt
 
