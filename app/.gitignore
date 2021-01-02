@@ -1,0 +1,5 @@
+virtualenv
+registeredIds.txt
+__pycache__
+.vscode
+*.db

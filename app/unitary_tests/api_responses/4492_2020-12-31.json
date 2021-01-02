@@ -1,0 +1,633 @@
+{
+  "id": 4492,
+  "name": "Zortéa",
+  "state": "SC",
+  "country": "BR  ",
+  "meteogram": "http://apiadvisor.climatempo.com.br/api/v1/meteogram/locale/4492?token=b22460a8b91ac5f1d48f5b7029891b53&hash=d6ffb6931873539c8314bec5f1e95afe",
+  "data": [
+    {
+      "date": "2020-12-31",
+      "date_br": "31/12/2020",
+      "humidity": {
+        "min": 48,
+        "max": 87,
+        "dawn": { "min": 82, "max": 87 },
+        "morning": { "min": 48, "max": 83 },
+        "afternoon": { "min": 49, "max": 59 },
+        "night": { "min": 60, "max": 78 }
+      },
+      "rain": { "probability": 90, "precipitation": 30 },
+      "wind": {
+        "velocity_min": 5,
+        "velocity_max": 18,
+        "velocity_avg": 12,
+        "gust_max": 25,
+        "direction_degrees": 282,
+        "direction": "W",
+        "dawn": {
+          "direction": "SW",
+          "direction_degrees": 265,
+          "gust_max": 23,
+          "velocity_max": 9,
+          "velocity_avg": 8
+        },
+        "morning": {
+          "direction": "NW",
+          "direction_degrees": 314,
+          "gust_max": 25,
+          "velocity_max": 15,
+          "velocity_avg": 11
+        },
+        "afternoon": {
+          "direction": "W",
+          "direction_degrees": 282,
+          "gust_max": 25,
+          "velocity_max": 18,
+          "velocity_avg": 17
+        },
+        "night": {
+          "direction": "WSW",
+          "direction_degrees": 264,
+          "gust_max": 22,
+          "velocity_max": 15,
+          "velocity_avg": 12
+        }
+      },
+      "uv": { "max": 15.9 },
+      "thermal_sensation": { "min": 20, "max": 27 },
+      "text_icon": {
+        "icon": {
+          "dawn": "4rn",
+          "morning": "4r",
+          "afternoon": "4r",
+          "night": "4rn",
+          "day": "4r"
+        },
+        "text": {
+          "pt": "Sol com muitas nuvens e chuva",
+          "en": "Sun and rain.",
+          "es": "Sol con muchas nubes durante el día. Períodos de nublado, con lluvia a cualquier hora.",
+          "phrase": {
+            "reduced": "Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora.",
+            "morning": "Sol com muitas nuvens e chuva",
+            "afternoon": "Sol com muitas nuvens e chuva",
+            "night": "Muitas nuvens e chuva",
+            "dawn": "Muitas nuvens e chuva"
+          }
+        }
+      },
+      "temperature": {
+        "min": 20,
+        "max": 26,
+        "dawn": { "min": 21, "max": 23 },
+        "morning": { "min": 20, "max": 22 },
+        "afternoon": { "min": 23, "max": 26 },
+        "night": { "min": 23, "max": 25 }
+      },
+      "cloud_coverage": {
+        "low": 0,
+        "mid": 0,
+        "high": 0,
+        "dawn": { "low": 0, "mid": 0, "high": 0 },
+        "morning": { "low": 0, "mid": 0, "high": 0 },
+        "afternoon": { "low": 0, "mid": 0, "high": 0 },
+        "night": { "low": 0, "mid": 0, "high": 0 }
+      },
+      "sun": { "sunrise": "05:34:00", "sunset": "19:24:00" }
+    },
+    {
+      "date": "2021-01-01",
+      "date_br": "01/01/2021",
+      "humidity": {
+        "min": 37,
+        "max": 92,
+        "dawn": { "min": 84, "max": 91 },
+        "morning": { "min": 55, "max": 92 },
+        "afternoon": { "min": 37, "max": 47 },
+        "night": { "min": 44, "max": 75 }
+      },
+      "rain": { "probability": 0, "precipitation": 0 },
+      "wind": {
+        "velocity_min": 3,
+        "velocity_max": 18,
+        "velocity_avg": 9,
+        "gust_max": 35,
+        "direction_degrees": 184,
+        "direction": "S",
+        "dawn": {
+          "direction": "SW",
+          "direction_degrees": 188,
+          "gust_max": 27,
+          "velocity_max": 10,
+          "velocity_avg": 9
+        },
+        "morning": {
+          "direction": "E",
+          "direction_degrees": 77,
+          "gust_max": 22,
+          "velocity_max": 9,
+          "velocity_avg": 7
+        },
+        "afternoon": {
+          "direction": "WSW",
+          "direction_degrees": 253,
+          "gust_max": 12,
+          "velocity_max": 12,
+          "velocity_avg": 8
+        },
+        "night": {
+          "direction": "SSE",
+          "direction_degrees": 184,
+          "gust_max": 35,
+          "velocity_max": 18,
+          "velocity_avg": 14
+        }
+      },
+      "uv": { "max": 15.9 },
+      "thermal_sensation": { "min": 17, "max": 31 },
+      "text_icon": {
+        "icon": {
+          "dawn": "2n",
+          "morning": "2",
+          "afternoon": "2",
+          "night": "2n",
+          "day": "2"
+        },
+        "text": {
+          "pt": "Sol com algumas nuvens",
+          "en": "Mostly sunny.",
+          "es": "Sol con algunas nubes. No llueve.",
+          "phrase": {
+            "reduced": "Sol com algumas nuvens. Não chove.",
+            "morning": "Sol com algumas nuvens",
+            "afternoon": "Sol com algumas nuvens",
+            "night": "Algumas nuvens",
+            "dawn": "Algumas nuvens"
+          }
+        }
+      },
+      "temperature": {
+        "min": 17,
+        "max": 29,
+        "dawn": { "min": 19, "max": 22 },
+        "morning": { "min": 17, "max": 22 },
+        "afternoon": { "min": 24, "max": 29 },
+        "night": { "min": 22, "max": 29 }
+      },
+      "cloud_coverage": {
+        "low": 0,
+        "mid": 0,
+        "high": 0,
+        "dawn": { "low": 0, "mid": 0, "high": 0 },
+        "morning": { "low": 0, "mid": 0, "high": 0 },
+        "afternoon": { "low": 0, "mid": 0, "high": 0 },
+        "night": { "low": 0, "mid": 0, "high": 0 }
+      }
+    },
+    {
+      "date": "2021-01-02",
+      "date_br": "02/01/2021",
+      "humidity": {
+        "min": 36,
+        "max": 81,
+        "dawn": { "min": 79, "max": 81 },
+        "morning": { "min": 54, "max": 80 },
+        "afternoon": { "min": 36, "max": 50 },
+        "night": { "min": 38, "max": 63 }
+      },
+      "rain": { "probability": 0, "precipitation": 0 },
+      "wind": {
+        "velocity_min": 2,
+        "velocity_max": 19,
+        "velocity_avg": 12,
+        "gust_max": 39,
+        "direction_degrees": 83,
+        "direction": "ENE",
+        "dawn": {
+          "direction": "ENE",
+          "direction_degrees": 97,
+          "gust_max": 39,
+          "velocity_max": 17,
+          "velocity_avg": 16
+        },
+        "morning": {
+          "direction": "ENE",
+          "direction_degrees": 75,
+          "gust_max": 31,
+          "velocity_max": 19,
+          "velocity_avg": 17
+        },
+        "afternoon": {
+          "direction": "NE",
+          "direction_degrees": 44,
+          "gust_max": 23,
+          "velocity_max": 15,
+          "velocity_avg": 10
+        },
+        "night": {
+          "direction": "W",
+          "direction_degrees": 183,
+          "gust_max": 30,
+          "velocity_max": 11,
+          "velocity_avg": 6
+        }
+      },
+      "uv": { "max": 16.1 },
+      "thermal_sensation": { "min": 16, "max": 29 },
+      "text_icon": {
+        "icon": {
+          "dawn": "2n",
+          "morning": "2",
+          "afternoon": "2",
+          "night": "2n",
+          "day": "2"
+        },
+        "text": {
+          "pt": "Sol com algumas nuvens",
+          "en": "Mostly sunny.",
+          "es": "Sol con algunas nubes. No llueve.",
+          "phrase": {
+            "reduced": "Sol com algumas nuvens. Não chove.",
+            "morning": "Sol com algumas nuvens",
+            "afternoon": "Sol com algumas nuvens",
+            "night": "Algumas nuvens",
+            "dawn": "Algumas nuvens"
+          }
+        }
+      },
+      "temperature": {
+        "min": 16,
+        "max": 28,
+        "dawn": { "min": 17, "max": 23 },
+        "morning": { "min": 16, "max": 22 },
+        "afternoon": { "min": 24, "max": 28 },
+        "night": { "min": 22, "max": 28 }
+      },
+      "cloud_coverage": {
+        "low": 0,
+        "mid": 0,
+        "high": 0,
+        "dawn": { "low": 0, "mid": 0, "high": 0 },
+        "morning": { "low": 0, "mid": 0, "high": 0 },
+        "afternoon": { "low": 0, "mid": 0, "high": 0 },
+        "night": { "low": 0, "mid": 0, "high": 0 }
+      }
+    },
+    {
+      "date": "2021-01-03",
+      "date_br": "03/01/2021",
+      "humidity": {
+        "min": 39,
+        "max": 80,
+        "dawn": { "min": 72, "max": 80 },
+        "morning": { "min": 55, "max": 79 },
+        "afternoon": { "min": 39, "max": 51 },
+        "night": { "min": 41, "max": 69 }
+      },
+      "rain": { "probability": 0, "precipitation": 0 },
+      "wind": {
+        "velocity_min": 8,
+        "velocity_max": 21,
+        "velocity_avg": 15,
+        "gust_max": 47,
+        "direction_degrees": 67,
+        "direction": "NE",
+        "dawn": {
+          "direction": "ENE",
+          "direction_degrees": 91,
+          "gust_max": 47,
+          "velocity_max": 21,
+          "velocity_avg": 18
+        },
+        "morning": {
+          "direction": "NE",
+          "direction_degrees": 63,
+          "gust_max": 33,
+          "velocity_max": 20,
+          "velocity_avg": 18
+        },
+        "afternoon": {
+          "direction": "NE",
+          "direction_degrees": 47,
+          "gust_max": 23,
+          "velocity_max": 16,
+          "velocity_avg": 13
+        },
+        "night": {
+          "direction": "ENE",
+          "direction_degrees": 64,
+          "gust_max": 32,
+          "velocity_max": 14,
+          "velocity_avg": 10
+        }
+      },
+      "uv": { "max": 15.3 },
+      "thermal_sensation": { "min": 15, "max": 29 },
+      "text_icon": {
+        "icon": {
+          "dawn": "2n",
+          "morning": "2",
+          "afternoon": "2",
+          "night": "2n",
+          "day": "2"
+        },
+        "text": {
+          "pt": "Sol com algumas nuvens",
+          "en": "Mostly sunny.",
+          "es": "Sol con algunas nubes. No llueve.",
+          "phrase": {
+            "reduced": "Sol com algumas nuvens. Não chove.",
+            "morning": "Sol com algumas nuvens",
+            "afternoon": "Sol com algumas nuvens",
+            "night": "Algumas nuvens",
+            "dawn": "Algumas nuvens"
+          }
+        }
+      },
+      "temperature": {
+        "min": 15,
+        "max": 28,
+        "dawn": { "min": 16, "max": 21 },
+        "morning": { "min": 15, "max": 19 },
+        "afternoon": { "min": 20, "max": 27 },
+        "night": { "min": 21, "max": 28 }
+      },
+      "cloud_coverage": {
+        "low": 0,
+        "mid": 0,
+        "high": 0,
+        "dawn": { "low": 0, "mid": 0, "high": 0 },
+        "morning": { "low": 0, "mid": 0, "high": 0 },
+        "afternoon": { "low": 0, "mid": 0, "high": 0 },
+        "night": { "low": 0, "mid": 0, "high": 0 }
+      }
+    },
+    {
+      "date": "2021-01-04",
+      "date_br": "04/01/2021",
+      "humidity": {
+        "min": 40,
+        "max": 78,
+        "dawn": { "min": 74, "max": 78 },
+        "morning": { "min": 57, "max": 77 },
+        "afternoon": { "min": 40, "max": 54 },
+        "night": { "min": 42, "max": 67 }
+      },
+      "rain": { "probability": 0, "precipitation": 0 },
+      "wind": {
+        "velocity_min": 6,
+        "velocity_max": 24,
+        "velocity_avg": 17,
+        "gust_max": 47,
+        "direction_degrees": 45,
+        "direction": "NE",
+        "dawn": {
+          "direction": "NE",
+          "direction_degrees": 63,
+          "gust_max": 47,
+          "velocity_max": 23,
+          "velocity_avg": 21
+        },
+        "morning": {
+          "direction": "NE",
+          "direction_degrees": 55,
+          "gust_max": 43,
+          "velocity_max": 24,
+          "velocity_avg": 22
+        },
+        "afternoon": {
+          "direction": "NNE",
+          "direction_degrees": 27,
+          "gust_max": 33,
+          "velocity_max": 22,
+          "velocity_avg": 17
+        },
+        "night": {
+          "direction": "NNW",
+          "direction_degrees": 360,
+          "gust_max": 12,
+          "velocity_max": 9,
+          "velocity_avg": 7
+        }
+      },
+      "uv": { "max": 15.7 },
+      "thermal_sensation": { "min": 16, "max": 31 },
+      "text_icon": {
+        "icon": {
+          "dawn": "2n",
+          "morning": "2",
+          "afternoon": "2",
+          "night": "2n",
+          "day": "2"
+        },
+        "text": {
+          "pt": "Sol com algumas nuvens",
+          "en": "Mostly sunny.",
+          "es": "Sol con algunas nubes. No llueve.",
+          "phrase": {
+            "reduced": "Sol com algumas nuvens. Não chove.",
+            "morning": "Sol com algumas nuvens",
+            "afternoon": "Sol com algumas nuvens",
+            "night": "Algumas nuvens",
+            "dawn": "Algumas nuvens"
+          }
+        }
+      },
+      "temperature": {
+        "min": 16,
+        "max": 29,
+        "dawn": { "min": 17, "max": 20 },
+        "morning": { "min": 16, "max": 19 },
+        "afternoon": { "min": 21, "max": 26 },
+        "night": { "min": 21, "max": 29 }
+      },
+      "cloud_coverage": {
+        "low": 0.5,
+        "mid": 0,
+        "high": 0,
+        "dawn": { "low": 0, "mid": 0, "high": 0 },
+        "morning": { "low": 0, "mid": 0, "high": 0 },
+        "afternoon": { "low": 1.8, "mid": 0, "high": 0 },
+        "night": { "low": 0, "mid": 0, "high": 0 }
+      }
+    },
+    {
+      "date": "2021-01-05",
+      "date_br": "05/01/2021",
+      "humidity": {
+        "min": 58,
+        "max": 95,
+        "dawn": { "min": 65, "max": 80 },
+        "morning": { "min": 58, "max": 79 },
+        "afternoon": { "min": 77, "max": 80 },
+        "night": { "min": 82, "max": 98 }
+      },
+      "rain": { "probability": 90, "precipitation": 11 },
+      "wind": {
+        "velocity_min": 1,
+        "velocity_max": 17,
+        "velocity_avg": 11,
+        "gust_max": 30,
+        "direction_degrees": 14,
+        "direction": "N",
+        "dawn": {
+          "direction": "NNE",
+          "direction_degrees": 26,
+          "gust_max": 30,
+          "velocity_max": 14,
+          "velocity_avg": 11
+        },
+        "morning": {
+          "direction": "N",
+          "direction_degrees": 18,
+          "gust_max": 28,
+          "velocity_max": 13,
+          "velocity_avg": 12
+        },
+        "afternoon": {
+          "direction": "S",
+          "direction_degrees": 219,
+          "gust_max": 23,
+          "velocity_max": 17,
+          "velocity_avg": 11
+        },
+        "night": {
+          "direction": "S",
+          "direction_degrees": 195,
+          "gust_max": 24,
+          "velocity_max": 17,
+          "velocity_avg": 10
+        }
+      },
+      "uv": { "max": 14.6 },
+      "thermal_sensation": { "min": 17, "max": 32 },
+      "text_icon": {
+        "icon": {
+          "dawn": "2n",
+          "morning": "2",
+          "afternoon": "4t",
+          "night": "4tn",
+          "day": "4t"
+        },
+        "text": {
+          "pt": "Sol, pancadas de chuva e trovoadas.",
+          "en": "Sun, rainfalls and thunderstorms",
+          "es": "Sol, lluvia y tormentas",
+          "phrase": {
+            "reduced": "Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
+            "morning": "Sol com algumas nuvens",
+            "afternoon": "Sol, pancadas de chuva e trovoadas.",
+            "night": "Muitas nuvens, chuva e raios",
+            "dawn": "Algumas nuvens"
+          }
+        }
+      },
+      "temperature": {
+        "min": 17,
+        "max": 28,
+        "dawn": { "min": 19, "max": 23 },
+        "morning": { "min": 17, "max": 23 },
+        "afternoon": { "min": 23, "max": 28 },
+        "night": { "min": 17, "max": 23 }
+      },
+      "cloud_coverage": {
+        "low": 6.9,
+        "mid": 14.3,
+        "high": 0.9,
+        "dawn": { "low": 1.8, "mid": 0, "high": 0 },
+        "morning": { "low": 1.8, "mid": 0, "high": 0 },
+        "afternoon": { "low": 22, "mid": 25.7, "high": 0 },
+        "night": { "low": 1.8, "mid": 31.3, "high": 3.7 }
+      }
+    },
+    {
+      "date": "2021-01-06",
+      "date_br": "06/01/2021",
+      "humidity": {
+        "min": 51,
+        "max": 98,
+        "dawn": { "min": 92, "max": 97 },
+        "morning": { "min": 57, "max": 90 },
+        "afternoon": { "min": 51, "max": 59 },
+        "night": { "min": 55, "max": 84 }
+      },
+      "rain": { "probability": 67, "precipitation": 6 },
+      "wind": {
+        "velocity_min": 2,
+        "velocity_max": 15,
+        "velocity_avg": 8,
+        "gust_max": 25,
+        "direction_degrees": 27,
+        "direction": "NNE",
+        "dawn": {
+          "direction": "NE",
+          "direction_degrees": 40,
+          "gust_max": 23,
+          "velocity_max": 9,
+          "velocity_avg": 7
+        },
+        "morning": {
+          "direction": "NE",
+          "direction_degrees": 48,
+          "gust_max": 25,
+          "velocity_max": 15,
+          "velocity_avg": 11
+        },
+        "afternoon": {
+          "direction": "N",
+          "direction_degrees": 341,
+          "gust_max": 16,
+          "velocity_max": 11,
+          "velocity_avg": 8
+        },
+        "night": {
+          "direction": "NNW",
+          "direction_degrees": 8,
+          "gust_max": 14,
+          "velocity_max": 8,
+          "velocity_avg": 4
+        }
+      },
+      "uv": { "max": 13.2 },
+      "thermal_sensation": { "min": 17, "max": 32 },
+      "text_icon": {
+        "icon": {
+          "dawn": "2n",
+          "morning": "2",
+          "afternoon": "4t",
+          "night": "4tn",
+          "day": "4t"
+        },
+        "text": {
+          "pt": "Sol, pancadas de chuva e trovoadas.",
+          "en": "Sun, rainfalls and thunderstorms",
+          "es": "Sol, lluvia y tormentas",
+          "phrase": {
+            "reduced": "Sol e aumento de nuvens de manhã. Pancadas de chuva à tarde e à noite.",
+            "morning": "Sol com algumas nuvens",
+            "afternoon": "Sol, pancadas de chuva e trovoadas.",
+            "night": "Muitas nuvens, chuva e raios",
+            "dawn": "Algumas nuvens"
+          }
+        }
+      },
+      "temperature": {
+        "min": 17,
+        "max": 28,
+        "dawn": { "min": 17, "max": 18 },
+        "morning": { "min": 17, "max": 22 },
+        "afternoon": { "min": 23, "max": 28 },
+        "night": { "min": 22, "max": 28 }
+      },
+      "cloud_coverage": {
+        "low": 4.6,
+        "mid": 0.9,
+        "high": 0.9,
+        "dawn": { "low": 0, "mid": 3.7, "high": 3.7 },
+        "morning": { "low": 0, "mid": 0, "high": 0 },
+        "afternoon": { "low": 14.7, "mid": 0, "high": 0 },
+        "night": { "low": 3.7, "mid": 0, "high": 0 }
+      }
+    }
+  ]
+}
