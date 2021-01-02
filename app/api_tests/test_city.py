@@ -15,4 +15,3 @@ BASE = f"http://127.0.0.1:5000/city?id={locales[random_id]}"
 class Test_get_city_from_api(unittest.TestCase):
     def test_response_is_converted_to_json(self):
         requests.get(BASE).json()
-# print(response.json())
