@@ -10,7 +10,7 @@ $sudo bash start.sh
 
 - A api ficará disponível para consumo através da porta 5000.
 
-# Esse arquivo contém as rotinas para criar o container da aplicação e iniciar a mesma nesse container.
+- Esse arquivo contém as rotinas para criar o container da aplicação e iniciar a mesma nesse container.
 
 # Sem usar docker:
 
@@ -22,7 +22,7 @@ $python main.py
 
 # Consumo da api:
 
-# http://localhost:5000/city?id=<ID_DA_CIDADE>
+- http://localhost:5000/city?id=<ID_DA_CIDADE>
 
 - Para buscar as condições climáticas de uma determinada cidade, enviar uma requisição com método GET
 com o parâmetro id na url, seguindo o seguinte padrão:
@@ -57,7 +57,7 @@ o valor nulo para suas entradas.
 
 # Para fazer análise das cidades consultadas
 
-# http://localhost:5000/analysis?initial_date=<DATA_INICIAL>&final_date=<DATA_FINAL>
+- http://localhost:5000/analysis?initial_date=<DATA_INICIAL>&final_date=<DATA_FINAL>
 
 - A api irá devolver um objeto com o seguinte formato:
 
@@ -69,30 +69,30 @@ Caso não haja cidades nesse intervalo, ou haja um erro com a requisição, ser�
 
 No diretório forecast_advisor_app, execute o seguinte comando:
 
-# 1 - A rotina get_city_info_from_response é responsável por retirar somente as informações relevantes da resposta da api.
-# esse teste verifica se as informações retiradas estão corretas.
+- 1 - A rotina get_city_info_from_response é responsável por retirar somente as informações relevantes da resposta da api.
+ esse teste verifica se as informações retiradas estão corretas.
 
 python -m unittest app/unitary_tests/test_get_city_info_from_response.py
 
-# 2 - A rotina convert_from_date_string é responsável por convertar um string no formato aaaa-mm-dd (yyyy-mm-dd) em um
-# objeto do tipo date. Esse teste verifica se o resultado obtido com a conversão é o esperado.
+- 2 - A rotina convert_from_date_string é responsável por convertar um string no formato aaaa-mm-dd (yyyy-mm-dd) em um
+objeto do tipo date. Esse teste verifica se o resultado obtido com a conversão é o esperado.
 
 python -m unittest app/unitary_tests/convert_from_date_string.py
 
 # Para realizar os testes abaixo, a api deve estar rodando na porta 5000.
 
-# 3 - As respostas da api a uma requisição devem poder ser convertidas para o formato json. A rotina test_city,
-# verifica se, para uma cidade aleatória, a requisição pode ser convertida para o formato json.
+- 3 - As respostas da api a uma requisição devem poder ser convertidas para o formato json. A rotina test_city,
+verifica se, para uma cidade aleatória, a requisição pode ser convertida para o formato json.
 
 python -m unittest app/api_tests/test_city.py
 
-# 4 - Verifica se a api vai devolver uma resposta serializável caso parâmetros de busca não sejam passados
-# para a rota analysis.
+- 4 - Verifica se a api vai devolver uma resposta serializável caso parâmetros de busca não sejam passados
+para a rota analysis.
 
 python -m unittest app/api_tests/test_no_analysis_param.py
 
-# 5 - Verifica se a api vai devolver uma resposta serializável caso o id seja um inteiro, porém a api não
-# tenha registros para a id passada.
+- 5 - Verifica se a api vai devolver uma resposta serializável caso o id seja um inteiro, porém a api não
+tenha registros para a id passada.
 
 python -m unittest app/api_tests/test_no_id_city.py
 
@@ -100,4 +100,5 @@ python -m unittest app/api_tests/test_no_id_city.py
 
 Obs: a api do apiadvisor estava respondendo devolvendo apenas a previsão do tempo durante os próximos 7 dias,
 e não 15 dias para a requisição ao endpoint:
-# http://apiadvisor.climatempo.com.br/api/v1/forecast/locale/<ID_DA_CIDADE>/days/15?token=<TOKEN>
+
+http://apiadvisor.climatempo.com.br/api/v1/forecast/locale/<ID_DA_CIDADE>/days/15?token=<TOKEN>
